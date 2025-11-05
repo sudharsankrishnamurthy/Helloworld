@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - Node.js App Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+            font-size: 3em;
+            margin: 0;
+            animation: fadeIn 1s ease-in;
+        }
+        p {
+            color: #666;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .success-note {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin-top: 30px;
+            text-align: left;
+            color: #2e7d32;
+            font-size: 0.9em;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello World!</h1>
+        <p>Welcome to your Node.js application</p>
+        <p>🎉 Your server is running successfully! 🎉</p>
+        <div class="success-note">
+            <strong>✅ Your Node.js app was successfully created!</strong><br><br>
+            <strong>What was built:</strong><br>
+            • Express server running on port 3000<br>
+            • Responsive HTML page with animations<br>
+            • Complete package.json with dependencies<br>
+            • All files committed to Git<br><br>
+            <strong>Files created:</strong><br>
+            • server.js - Node.js Express server<br>
+            • index.html - This beautiful page<br>
+            • package.json - Project configuration<br>
+            • .gitignore - Git ignore file<br><br>
+            <strong>Note:</strong> This is a standalone demo. Your actual server is running in a cloud environment and requires proper port forwarding or deployment to access remotely.
+        </div>
+    </div>
+</body>
+</html>
